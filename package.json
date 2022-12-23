@@ -1,0 +1,25 @@
+{
+  "name": "xml-consuming-with-node.js",
+  "version": "1.0.0",
+  "description": "This is an example about consuming SOAP web services using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nestorrecinosUCA/xml-consuming-with-node.js.git"
+  },
+  "keywords": [
+    "soap",
+    "xml",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Nestor Recinos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nestorrecinosUCA/xml-consuming-with-node.js/issues"
+  },
+  "homepage": "https://github.com/nestorrecinosUCA/xml-consuming-with-node.js#readme"
+}
