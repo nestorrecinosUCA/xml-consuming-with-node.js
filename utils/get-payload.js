@@ -27,3 +27,5 @@ function getPayload(operation, numberA, numberB) {
 
   return payload;
 }
+
+export { getPayload };

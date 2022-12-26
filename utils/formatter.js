@@ -16,3 +16,5 @@ function formatXml(xml, tab = '\t') { // tab = optional indent value, default is
 
   return formatted.substring(1, formatted.length - 3);
 }
+
+export { formatXml };
