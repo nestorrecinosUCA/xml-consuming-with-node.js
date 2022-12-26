@@ -1,5 +1,7 @@
 import axios from 'axios';
+
 import { getPayload } from './get-payload.js';
+
 async function calculate(operation, numberA, numberB) {
   const url = 'http://www.dneonline.com/calculator.asmx';
   const payload = getPayload(operation, numberA, numberB);
@@ -16,7 +18,7 @@ async function calculate(operation, numberA, numberB) {
     return await response.data;
   } catch (error) {
     console.log(error);
-    return error;
+    throw new Error(error);
   }
 }
 
