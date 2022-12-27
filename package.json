@@ -5,6 +5,10 @@
   "description": "This is an example about consuming SOAP web services using Node.js",
   "main": "index.js",
   "scripts": {
+    "sum": "node index.js sum ",
+    "subtract": "node index.js subtract ",
+    "multiply": "node index.js multiply ",
+    "divide": "node index.js divide ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
